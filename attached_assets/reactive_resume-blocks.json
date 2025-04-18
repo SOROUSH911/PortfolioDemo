@@ -1,0 +1,519 @@
+{
+  "basics": {
+    "name": "Soroush Salari",
+    "headline": "Software Engineer",
+    "email": "soroush.salari2023@gmail.com",
+    "phone": "+ 1 (437) 566 3508",
+    "location": "Toronto, Ontario, Canada",
+    "url": {
+      "label": "",
+      "href": ""
+    },
+    "customFields": [],
+    "picture": {
+      "url": "",
+      "size": 64,
+      "aspectRatio": 1,
+      "borderRadius": 0,
+      "effects": {
+        "hidden": false,
+        "border": false,
+        "grayscale": false
+      }
+    }
+  },
+  "sections": {
+    "summary": {
+      "name": "Summary",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "summary",
+      "content": "<p>Specializing in .Net Core and Python with a strong foundation in artificial intelligence, I bring three years of experience in developing scalable software architectures and deploying AI-driven cloud solutions. My expertise spans DevOps, ETL pipelines, and complex cloud infrastructure, focusing on high-performance applications and data-driven intelligence. Skilled in AWS services such as Lambda, Amplify Gen 2, and Bedrock, I’ve architected data pipelines, built AI-powered assistants, and designed multi-tenant SaaS solutions using AWS CDK, QuickSight, and DynamoDB. My proficiency in .Net, Python, and data science enables me to create sophisticated domain models that enhance data processing and user engagement. Driven by a commitment to innovation and adaptability, I deliver flexible, robust solutions that meet the evolving demands of today’s technology landscape.</p>"
+    },
+    "awards": {
+      "name": "Awards",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "awards",
+      "items": []
+    },
+    "certifications": {
+      "name": "Certifications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "certifications",
+      "items": [
+        {
+          "id": "whatg0q1co5cpugfuxjksylq",
+          "visible": true,
+          "name": "English Certificate",
+          "issuer": "Duolingo",
+          "date": "2023",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://certs.duolingo.com/8ba4668732245e78ba388f651785bcf2"
+          }
+        },
+        {
+          "id": "nj0w96nh5z6o3pntdkca7f0p",
+          "visible": true,
+          "name": "AWS Certified Developer - Associate",
+          "issuer": "AWS",
+          "date": "2024",
+          "summary": "",
+          "url": {
+            "label": "",
+            "href": "https://www.credly.com/badges/6a3fda6d-7d16-4d08-bb61-578e74a607c7"
+          }
+        }
+      ]
+    },
+    "education": {
+      "name": "Education",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "education",
+      "items": [
+        {
+          "id": "kji69jy4r4ljhtiryrr3exa3",
+          "visible": true,
+          "institution": "George Brown College",
+          "studyType": "Advanced Diploma",
+          "area": "Computer Programming and Analysis",
+          "score": "",
+          "date": "2024",
+          "summary": "<p></p>",
+          "url": {
+            "label": "",
+            "href": "https://www.georgebrown.ca"
+          }
+        }
+      ]
+    },
+    "experience": {
+      "name": "Experience",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "experience",
+      "items": [
+        {
+          "id": "evqyguq40u2lo81d6zr9hayf",
+          "visible": false,
+          "company": "Brand Academy Iran",
+          "position": "Tech Lead and Backend developer",
+          "location": "",
+          "date": "May 2023 - October 2023",
+          "summary": "<ul><li><p>Led a team using Agile methodologies, breaking down the project into sprints and tasks, ensuring timely delivery of each phase.</p></li><li><p>Managed DevOps responsibilities, encompassing server and database configuration, DNS setup, and front-end application deployment. Introduced GitLab CI/CD pipelines to automate build, test, and deployment processes, significantly enhancing system reliability and performance.</p></li><li><p>Designed complex domain models for business logic, enabling dynamic user plan upgrades and efficient handling of user business models.</p></li><li><p>Implemented a versatile survey system with conditional logic, significantly enhancing user engagement and data collection accuracy.</p></li><li><p>Led Python algorithm integration for advanced data processing, optimizing data mapping and analytics in coordination with a data scientist, which provided valuable business insights through backend APIs.</p></li><li><p>Designed and implemented API endpoints for chart generation, providing comprehensive business insights and data visualizations to users.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "http://iranbrandacademy.com"
+          }
+        },
+        {
+          "id": "ic9im1afdjofep5e11chitko",
+          "visible": true,
+          "company": "Chinchilla-ai",
+          "position": "Senior AWS & Python Engineer",
+          "location": "Houston",
+          "date": "Remote | August 2024 - Present",
+          "summary": "<p>At Chinchilla AI, I fused a deep-rooted passion for AI with AWS expertise, creating data-driven cloud solutions that deliver on both efficiency and innovation. As a core team member, I managed ETL pipelines using AWS Lambda, S3, Glue Crawlers, and Athena, rapidly deploying Python-based Lambda scripts to meet tight deadlines and deliver complex transformations in a single day.</p><p>Highlights:</p><ul><li><p><strong>Amplify Gen 2 &amp; Full-Stack Development</strong>: Led the development of <em>Go Farm Yourself</em>, a comprehensive React Native application, leveraging Amplify Gen 2 to model data in DynamoDB and establish real-time data streams to Databricks for enriched analytics. This project strengthened the client’s data insights and decision-making.</p></li><li><p><strong>Intelligent AI Assistants</strong>: Using AWS Bedrock, I built and fine-tuned language models to power AI-driven chatbots, enhancing interaction quality through prompt engineering to optimize response accuracy and engagement.</p></li><li><p><strong>Advanced SaaS Data Solutions</strong>: On the <em>ODDO App</em> project, I deployed AWS CDK and QuickSight to create a seamless, tenant-ready SaaS platform. This architecture enables isolated data management, with each tenant receiving tailored analytics in QuickSight, particularly benefiting dealership networks.</p></li><li><p><strong>Amplify Gen 2 Contributions &amp; CI/CD</strong>: Provided valuable insights for Amplify Gen 2's development, enhancing data handling and cloud integrations for broader developer use. Integrated GitHub Actions for automated CI/CD, creating a streamlined pipeline for rapid testing and deployment.</p></li></ul><p>My work at Chinchilla AI involves not only prompt and effective AI integrations but also strategic, cloud-based solutions, backed by a solid understanding of AWS architecture and an unwavering commitment to innovation.</p>",
+          "url": {
+            "label": "",
+            "href": "https://www.chinchilla-ai.com"
+          }
+        },
+        {
+          "id": "txgfuoee4t2m6heoqsq4vjms",
+          "visible": true,
+          "company": "Paratech",
+          "position": ".Net Developer and AI Specialist",
+          "location": "",
+          "date": "2021 - 2023",
+          "summary": "<ul><li><p>Developed Identity Server using OpenIddict; implemented custom authentication claims, 2FA, profile editing, and multi-email/phone management verifying and using for 2FA; integrated SNS/SES; managed background tasks with MassTransit and rabbitmq.</p></li><li><p>Executed database migration from MSSQL to PostgreSQL, translating stored procedures and features without data loss.</p></li><li><p>Developed a File Manager enabling batch upload, folder structure modification, and data consumption into various models such as datasets, surveys, and SPSS files, storing data in Azure Blob Storage or AWS S3</p></li><li><p>Constructed a SaaS application enabling user invitations and data governance across various models; implemented ownership and role-based access controls, including view-only and data provider privileges, and hierarchical data access for tailored user permissions; integrated file management and OAuth identity server functionalities.</p></li><li><p>Dockerized and virtualized the entire project for enhanced deployment efficiency.</p></li><li><p>Spearheaded several e-commerce projects, leveraging expertise in queuing (RabbitMQ, MassTransit) and caching (Redis), coupled with full-stack development skills for dynamic admin panels and data visualization.</p></li><li><p>Demonstrated proficiency in complex data mapping and API validation using AutoMapper and FluentValidation, alongside Clean Architecture implementation with MediatR and IoC patterns via AutoFac.</p></li><li><p>Developed chatbots and recommendation systems utilizing Python, underpinned by strong competencies in data processing and refactoring with Pandas and NumPy.</p></li><li><p>Skilled in optimizing database queries with EF Core and Dapper, and adept at SQL database administration and reporting.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://paratechco.com"
+          }
+        }
+      ]
+    },
+    "volunteer": {
+      "name": "Volunteering",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "volunteer",
+      "items": []
+    },
+    "interests": {
+      "name": "Interests",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "interests",
+      "items": []
+    },
+    "languages": {
+      "name": "Languages",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": false,
+      "id": "languages",
+      "items": [
+        {
+          "id": "knhj7g6k5bmnulv6hzcfesji",
+          "visible": true,
+          "name": "English",
+          "description": "Professional",
+          "level": 5
+        },
+        {
+          "id": "srknn25a0ln60qc32mfvmj8l",
+          "visible": true,
+          "name": "French",
+          "description": "",
+          "level": 2
+        },
+        {
+          "id": "rzuvs0bic75vdd42ina4s6wd",
+          "visible": true,
+          "name": "Persian",
+          "description": "Native",
+          "level": 5
+        }
+      ]
+    },
+    "profiles": {
+      "name": "Profiles",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "profiles",
+      "items": [
+        {
+          "id": "ivn1yielsn02t06jpysqrpcb",
+          "visible": true,
+          "network": "Github",
+          "username": "SOROUSH911",
+          "icon": "Github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/SOROUSH911"
+          }
+        },
+        {
+          "id": "fdgchy2qinljmhmk80z48d61",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "soroushxs",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://www.linkedin.com/in/soroushx"
+          }
+        },
+        {
+          "id": "sv7nc1r4uwk6oqahrvd66n0r",
+          "visible": true,
+          "network": "Upwork",
+          "username": "Soroush S.",
+          "icon": "Upwork",
+          "url": {
+            "label": "",
+            "href": "https://www.upwork.com/freelancers/~01f5d4a0f4361ee0af"
+          }
+        }
+      ]
+    },
+    "projects": {
+      "name": "Projects",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "projects",
+      "items": [
+        {
+          "id": "ndyadetbeja2vy6681jbrlfi",
+          "visible": true,
+          "name": "Voxdash",
+          "description": "VoxDash enables the sharing and visualization of proprietary survey data without granting access to the raw data itself.  ",
+          "date": "2021 - 2023",
+          "summary": "<p></p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "http://voxdash.com"
+          }
+        },
+        {
+          "id": "mo5kovoirvk9rj0yid92qjzj",
+          "visible": true,
+          "name": "Dana & Dana plus",
+          "description": " E-commerce and online meeting platform supporting simultaneous participation of over 1000 individuals in a single meeting",
+          "date": "2022",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://danaplus.net"
+          }
+        },
+        {
+          "id": "zlfyfecju1l67fgdupvvhisx",
+          "visible": true,
+          "name": "Habitomic",
+          "description": "Building a New Habit can be challenging, but it gets easier when you have a habit-forming friend along the journey. That is how Habitomic came to life.",
+          "date": "2021 - 2023",
+          "summary": "<p>Developed APIs and core functionalities for Habitmoc, including a custom chatbot, 'Mana'. This intelligent chatbot guided users in creating tasks, mimicking the mobile app's functionalities and enhancing user engagement through interactive, conditional conversations.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://habitomic.com"
+          }
+        },
+        {
+          "id": "biihc47is2aoi5i37fdlzl61",
+          "visible": true,
+          "name": "EasyFleet",
+          "description": "real-time fleet management; A robust BI dashboard, live administration, and operational control, with reporting and cost optimization.",
+          "date": "2023",
+          "summary": "",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://metafleet.org"
+          }
+        },
+        {
+          "id": "maxh25tixg1ahswu4e06on0u",
+          "visible": true,
+          "name": "Metrixz",
+          "description": "Metrixz provides premium services to help you improve your companys performance by giving you the tools and insight you need to excel in sales , marketing and branding",
+          "date": "2023",
+          "summary": "<p>Tech Lead and Backend Developer.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://metrixz.com"
+          }
+        },
+        {
+          "id": "q2vvbvdtimfipfovkd7u9oe5",
+          "visible": true,
+          "name": "Go Farm Yourself",
+          "description": "",
+          "date": "August 2024 - Present",
+          "summary": "<p>Led the development of a React Native application for Go Farm Yourself, leveraging Amplify Gen 2 for rapid, scalable deployment. Designed and managed their DynamoDB database, setting up real-time data streams to Databricks for advanced analytics, enhancing the client’s data-driven decision-making processes.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": "https://www.gfy.ag"
+          }
+        },
+        {
+          "id": "amqlp1xs1zwz0hps38nm8goc",
+          "visible": true,
+          "name": "Oddo",
+          "description": "",
+          "date": "August 2024 - Present",
+          "summary": "<p>Developed a SaaS solution in AWS CDK, incorporating QuickSight for data intelligence, particularly for dealership analytics in Texas. Streamlined tenant onboarding and data isolation, providing each tenant with exclusive data control and customized insights in QuickSight.</p>",
+          "keywords": [],
+          "url": {
+            "label": "",
+            "href": ""
+          }
+        }
+      ]
+    },
+    "publications": {
+      "name": "Publications",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "publications",
+      "items": []
+    },
+    "references": {
+      "name": "References",
+      "columns": 1,
+      "separateLinks": true,
+      "visible": true,
+      "id": "references",
+      "items": []
+    },
+    "skills": {
+      "name": "Skills",
+      "columns": 3,
+      "separateLinks": true,
+      "visible": true,
+      "id": "skills",
+      "items": [
+        {
+          "id": "wo1z5pcluxwlyx6vwmjiw3ub",
+          "visible": true,
+          "name": "ASP.NET",
+          "description": "",
+          "level": 0,
+          "keywords": []
+        },
+        {
+          "id": "jc01zv0cd7j3lxcbslqat4cx",
+          "visible": true,
+          "name": "SQL",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "PostgreSQL",
+            "MSSQL"
+          ]
+        },
+        {
+          "id": "agv489fyiagggisqf397x9wy",
+          "visible": true,
+          "name": "NOSQL",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Mongodb",
+            "Redis",
+            "DynamoDb"
+          ]
+        },
+        {
+          "id": "jmfqf1awj1c07hx0jing6dsk",
+          "visible": true,
+          "name": "JavaScript",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Nextjs",
+            "Typescript"
+          ]
+        },
+        {
+          "id": "ad9ygnx4l58v90cu7u8lti31",
+          "visible": true,
+          "name": "Python",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Django",
+            "TensorFlow",
+            "Pandas",
+            "Numpy",
+            "Gui Apps"
+          ]
+        },
+        {
+          "id": "nlf4pum5nycvgoxtcisbudh9",
+          "visible": true,
+          "name": "AWS",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "Amplify",
+            "Sam & Cloud Formation",
+            "DynamoDB",
+            "Quicksight",
+            "Lambda",
+            "S3",
+            "Glue",
+            "Athena",
+            "Cognito"
+          ]
+        },
+        {
+          "id": "lwmsqjxcwjw18ru3g4wf8xm3",
+          "visible": true,
+          "name": "Azure",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "AKS",
+            "Azure Blob Storage",
+            "Azure SQL"
+          ]
+        },
+        {
+          "id": "ppmyu75kdin3an75ypkefei8",
+          "visible": true,
+          "name": "IAC",
+          "description": "",
+          "level": 0,
+          "keywords": [
+            "sam",
+            "terraform",
+            "databricsk DABs"
+          ]
+        }
+      ]
+    },
+    "custom": {}
+  },
+  "metadata": {
+    "template": "bronzor",
+    "layout": [
+      [
+        [
+          "profiles",
+          "summary",
+          "experience",
+          "volunteer"
+        ],
+        [
+          "references",
+          "interests",
+          "awards",
+          "publications"
+        ]
+      ],
+      [
+        [
+          "education",
+          "skills",
+          "certifications",
+          "projects",
+          "languages"
+        ],
+        []
+      ]
+    ],
+    "css": {
+      "value": "* {\n\toutline: 1px solid #000;\n\toutline-offset: 4px;\n}",
+      "visible": false
+    },
+    "page": {
+      "margin": 20,
+      "format": "a4",
+      "options": {
+        "breakLine": true,
+        "pageNumbers": true
+      }
+    },
+    "theme": {
+      "background": "#ffffff",
+      "text": "#000000",
+      "primary": "#7c3aed"
+    },
+    "typography": {
+      "font": {
+        "family": "IBM Plex Serif",
+        "subset": "latin",
+        "variants": [
+          "regular"
+        ],
+        "size": 13
+      },
+      "lineHeight": 1,
+      "hideIcons": false,
+      "underlineLinks": true
+    },
+    "notes": ""
+  }
+}
