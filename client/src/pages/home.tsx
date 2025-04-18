@@ -51,7 +51,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-blue-200">© 2024 Soroush Salari. All rights reserved.</p>
+              <p className="text-blue-200">© 2025 Soroush Salari. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
               <a href="#profile" className="text-blue-200 hover:text-white transition-colors">Back to Top</a>
