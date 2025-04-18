@@ -20,18 +20,20 @@ function CertificationCard({ title, issuer, year, icon, link }: CertificationCar
       transition={{ duration: 0.5 }}
     >
       <div className="flex items-center justify-between mb-4">
-        <div className="p-3 bg-accent/10 rounded-full">
-          {icon}
+        <div className="flex items-center justify-center w-16 h-16 rounded-full bg-blue-600">
+          {icon && (
+            <span className="text-3xl text-white">{icon}</span>
+          )}
         </div>
-        <span className="text-sm text-secondary">{year}</span>
+        <span className="text-xs md:text-sm bg-blue-100 text-blue-600 px-2 py-1 rounded font-semibold">{year}</span>
       </div>
-      <h3 className="text-xl font-semibold text-primary mb-2">{title}</h3>
-      <p className="text-secondary mb-4">Issued by {issuer}</p>
+      <h3 className="text-xl md:text-2xl font-bold text-blue-800 mb-2">{title}</h3>
+      <p className="text-gray-700 text-base mb-4 font-medium">Issued by <span className="font-semibold text-blue-700">{issuer}</span></p>
       <a 
         href={link} 
         target="_blank" 
         rel="noopener noreferrer"
-        className="text-accent hover:text-accent-light flex items-center"
+        className="text-blue-600 hover:text-blue-800 flex items-center font-semibold"
       >
         <span>View Credential</span>
         <FaExternalLinkAlt className="ml-2" />
@@ -55,7 +57,7 @@ export default function CertificationsSection() {
             title="AWS Certified Developer - Associate"
             issuer="AWS"
             year="2024"
-            icon={<FaAws className="text-2xl text-accent" />}
+            icon={<FaAws className="text-3xl text-white" />}
             link="https://www.credly.com/badges/6a3fda6d-7d16-4d08-bb61-578e74a607c7"
           />
 
@@ -63,7 +65,7 @@ export default function CertificationsSection() {
             title="English Certificate"
             issuer="Duolingo"
             year="2023"
-            icon={<FaLanguage className="text-2xl text-accent" />}
+            icon={<FaLanguage className="text-3xl text-white" />}
             link="https://certs.duolingo.com/8ba4668732245e78ba388f651785bcf2"
           />
         </div>

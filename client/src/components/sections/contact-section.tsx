@@ -32,18 +32,18 @@ interface ContactInfoItemProps {
 function ContactInfoItem({ icon, title, content }: ContactInfoItemProps) {
   return (
     <motion.div 
-      className="bg-neutral p-6 rounded-lg shadow-md flex items-start"
+      className="bg-white p-6 rounded-lg shadow-md flex items-start border border-blue-200"
       initial={{ opacity: 0, y: 20 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5 }}
     >
-      <div className="bg-accent/10 p-3 rounded-full mr-4">
+      <div className="bg-blue-600 p-3 rounded-full mr-4 flex items-center justify-center">
         {icon}
       </div>
       <div>
-        <h3 className="text-lg font-semibold text-primary mb-1">{title}</h3>
-        {content}
+        <h3 className="text-lg font-bold text-blue-800 mb-1">{title}</h3>
+        <span className="text-base text-gray-800 font-medium">{content}</span>
       </div>
     </motion.div>
   );
@@ -81,12 +81,12 @@ export default function ContactSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <ContactInfoItem
-              icon={<FaEnvelope className="text-accent" />}
+              icon={<FaEnvelope className="text-white" />}
               title="Email"
               content={
                 <a 
                   href="mailto:soroush.salari2023@gmail.com" 
-                  className="text-secondary hover:text-accent transition-colors"
+                  className="text-blue-800 hover:text-blue-600 transition-colors"
                 >
                   soroush.salari2023@gmail.com
                 </a>
@@ -94,12 +94,12 @@ export default function ContactSection() {
             />
 
             <ContactInfoItem
-              icon={<FaPhone className="text-accent" />}
+              icon={<FaPhone className="text-white" />}
               title="Phone"
               content={
                 <a 
                   href="tel:+14375663508" 
-                  className="text-secondary hover:text-accent transition-colors"
+                  className="text-blue-800 hover:text-blue-600 transition-colors"
                 >
                   +1 (437) 566-3508
                 </a>
@@ -107,25 +107,25 @@ export default function ContactSection() {
             />
 
             <ContactInfoItem
-              icon={<FaMapMarkerAlt className="text-accent" />}
+              icon={<FaMapMarkerAlt className="text-white" />}
               title="Location"
-              content={<p className="text-secondary">Toronto, Ontario, Canada</p>}
+              content={<p className="text-gray-800">Toronto, Ontario, Canada</p>}
             />
 
             <motion.div 
-              className="bg-neutral p-6 rounded-lg shadow-md"
+              className="bg-white p-6 rounded-lg shadow-md border border-blue-200"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
             >
-              <h3 className="text-lg font-semibold text-primary mb-4">Connect with me</h3>
+              <h3 className="text-lg font-bold text-blue-800 mb-4">Connect with me</h3>
               <div className="flex space-x-4">
                 <a 
                   href="https://github.com/SOROUSH911" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="bg-accent/10 p-3 rounded-full text-accent hover:bg-accent hover:text-white transition-all"
+                  className="bg-blue-600 p-3 rounded-full text-white hover:bg-blue-500 transition-all"
                 >
                   <FaGithub className="text-xl" />
                 </a>
@@ -133,7 +133,7 @@ export default function ContactSection() {
                   href="https://www.linkedin.com/in/soroushx" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="bg-accent/10 p-3 rounded-full text-accent hover:bg-accent hover:text-white transition-all"
+                  className="bg-blue-600 p-3 rounded-full text-white hover:bg-blue-500 transition-all"
                 >
                   <FaLinkedinIn className="text-xl" />
                 </a>
@@ -141,7 +141,7 @@ export default function ContactSection() {
                   href="https://www.upwork.com/freelancers/~01f5d4a0f4361ee0af" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="bg-accent/10 p-3 rounded-full text-accent hover:bg-accent hover:text-white transition-all"
+                  className="bg-blue-600 p-3 rounded-full text-white hover:bg-blue-500 transition-all"
                 >
                   <FaBriefcase className="text-xl" />
                 </a>
@@ -150,13 +150,13 @@ export default function ContactSection() {
           </div>
 
           <motion.div 
-            className="bg-white p-6 rounded-lg shadow-md border border-neutral-dark"
+            className="bg-white p-6 rounded-lg shadow-md border border-blue-200"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <h3 className="text-xl font-semibold text-primary mb-6">Send me a message</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-6">Send me a message</h3>
             <Form {...form}>
               <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
                 <FormField
@@ -164,12 +164,11 @@ export default function ContactSection() {
                   name="name"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-sm font-medium text-secondary">Name</FormLabel>
+                      <FormLabel className="text-blue-700 font-semibold">Name</FormLabel>
                       <FormControl>
-                        <Input 
-                          placeholder="Your name" 
+                        <Input
                           {...field} 
-                          className="w-full px-4 py-2 border border-neutral-dark rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                          className="w-full px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-blue-900 font-semibold placeholder-gray-400"
                         />
                       </FormControl>
                       <FormMessage />
@@ -182,13 +181,11 @@ export default function ContactSection() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-sm font-medium text-secondary">Email</FormLabel>
+                      <FormLabel className="text-blue-700 font-semibold">Email</FormLabel>
                       <FormControl>
-                        <Input 
-                          type="email" 
-                          placeholder="Your email" 
+                        <Input
                           {...field} 
-                          className="w-full px-4 py-2 border border-neutral-dark rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                          className="w-full px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-blue-900 font-semibold placeholder-gray-400"
                         />
                       </FormControl>
                       <FormMessage />
@@ -201,13 +198,11 @@ export default function ContactSection() {
                   name="message"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel className="text-sm font-medium text-secondary">Message</FormLabel>
+                      <FormLabel className="text-blue-700 font-semibold">Message</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          placeholder="Your message" 
-                          rows={5} 
-                          {...field} 
-                          className="w-full px-4 py-2 border border-neutral-dark rounded-lg focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                        <Textarea
+                          {...field}
+                          className="w-full px-4 py-2 border border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white text-blue-900 font-semibold placeholder-gray-400 min-h-[120px]"
                         />
                       </FormControl>
                       <FormMessage />
@@ -217,7 +212,7 @@ export default function ContactSection() {
                 
                 <Button 
                   type="submit" 
-                  className="w-full bg-accent text-white px-6 py-3 rounded-lg hover:bg-accent-light transition-colors shadow-md"
+                  className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-500 transition-colors shadow-md"
                 >
                   Send Message
                 </Button>
