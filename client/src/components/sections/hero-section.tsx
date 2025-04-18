@@ -14,16 +14,16 @@ export default function HeroSection() {
         transition={{ duration: 0.5 }}
       >
         <motion.h1 
-          className="text-4xl md:text-6xl font-bold text-primary mb-4"
+          className="text-4xl md:text-6xl font-bold text-blue-600 mb-4" // Explicit blue color
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          Soroush <span className="text-accent">Salari</span>
+          Soroush <span className="text-blue-500">Salari</span> {/* Explicit blue color */}
         </motion.h1>
         
         <motion.h2 
-          className="text-2xl md:text-3xl text-secondary mb-8"
+          className="text-2xl md:text-3xl text-slate-700 mb-8" // Explicit slate color
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.5 }}
@@ -32,12 +32,12 @@ export default function HeroSection() {
         </motion.h2>
         
         <motion.div 
-          className="bg-neutral p-6 rounded-lg shadow-md mb-8"
+          className="bg-slate-50 p-6 rounded-lg shadow-md mb-8" // Lighter slate background
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.4, duration: 0.5 }}
         >
-          <p className="text-secondary text-lg leading-relaxed">
+          <p className="text-slate-700 text-lg leading-relaxed"> {/* Explicit slate color */}
             Specializing in .Net Core and Python with a strong foundation in artificial intelligence, 
             I bring three years of experience in developing scalable software architectures and deploying 
             AI-driven cloud solutions. My expertise spans DevOps, ETL pipelines, and complex cloud 
@@ -53,13 +53,13 @@ export default function HeroSection() {
         >
           <a 
             href="#contact" 
-            className="inline-flex items-center px-6 py-3 bg-accent text-white rounded-lg hover:bg-accent-light transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors shadow-md" // Explicit blue color
           >
             <FaEnvelope className="mr-2" /> Contact Me
           </a>
           <a 
             href="#projects" 
-            className="inline-flex items-center px-6 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary hover:text-white transition-colors shadow-md"
+            className="inline-flex items-center px-6 py-3 border-2 border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition-colors shadow-md" // Explicit blue color
           >
             <FaProjectDiagram className="mr-2" /> View Projects
           </a>
@@ -77,8 +77,8 @@ export default function HeroSection() {
         }}
       >
         <div className="flex flex-col items-center">
-          <p className="text-secondary mb-2">Scroll to explore</p>
-          <FaChevronDown className="text-accent" />
+          <p className="text-slate-600 mb-2">Scroll to explore</p> {/* Explicit slate color */}
+          <FaChevronDown className="text-blue-500" /> {/* Explicit blue color */}
         </div>
       </motion.div>
     </section>

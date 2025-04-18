@@ -13,13 +13,12 @@ const NavLink = ({ href, icon, label, isActive }: NavLinkProps) => (
   <li>
     <a
       href={href}
-      className={`flex items-center p-3 rounded-lg hover:bg-primary-light transition-all ${
+      className={`flex items-center p-3 rounded-lg hover:bg-blue-800 transition-all ${
         isActive 
-          ? "border-l-3 border-accent text-accent" 
-          : "text-neutral hover:bg-primary-light"
+          ? "border-l-[3px] border-blue-400 text-blue-400" 
+          : "text-gray-300 hover:text-white"
       }`}
       style={{ 
-        borderLeftWidth: isActive ? '3px' : '0',
         paddingLeft: isActive ? '13px' : '16px'
       }}
     >
@@ -57,14 +56,14 @@ export default function Sidebar() {
       initial={{ x: -100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="fixed top-0 left-0 h-screen w-20 md:w-64 bg-primary z-10 flex flex-col shadow-lg overflow-hidden transition-all duration-300 ease-in-out"
+      className="fixed top-0 left-0 h-screen w-20 md:w-64 bg-blue-700 z-10 flex flex-col shadow-lg overflow-hidden transition-all duration-300 ease-in-out"
     >
-      <div className="flex flex-col items-center md:items-start p-4 md:p-6 border-b border-primary-light">
-        <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center text-white font-bold text-xl">
+      <div className="flex flex-col items-center md:items-start p-4 md:p-6 border-b border-blue-800">
+        <div className="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-xl">
           SS
         </div>
         <h2 className="hidden md:block text-white font-semibold mt-2">Soroush Salari</h2>
-        <p className="hidden md:block text-neutral-dark text-sm">Software Engineer</p>
+        <p className="hidden md:block text-blue-200 text-sm">Software Engineer</p>
       </div>
       
       <div className="flex-grow overflow-y-auto py-6">
@@ -114,13 +113,13 @@ export default function Sidebar() {
         </ul>
       </div>
       
-      <div className="p-4 md:p-6 border-t border-primary-light">
+      <div className="p-4 md:p-6 border-t border-blue-800">
         <div className="flex justify-center md:justify-start space-x-4">
           <a 
             href="https://github.com/SOROUSH911" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-neutral hover:text-accent transition-colors"
+            className="text-blue-200 hover:text-white transition-colors"
           >
             <FaGithub className="text-xl" />
           </a>
@@ -128,7 +127,7 @@ export default function Sidebar() {
             href="https://www.linkedin.com/in/soroushx" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-neutral hover:text-accent transition-colors"
+            className="text-blue-200 hover:text-white transition-colors"
           >
             <FaLinkedin className="text-xl" />
           </a>
@@ -136,7 +135,7 @@ export default function Sidebar() {
             href="https://www.upwork.com/freelancers/~01f5d4a0f4361ee0af" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="text-neutral hover:text-accent transition-colors"
+            className="text-blue-200 hover:text-white transition-colors"
           >
             <FaUpwork className="text-xl" />
           </a>

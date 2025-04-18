@@ -47,14 +47,14 @@ export default function Home() {
         <ContactSection />
       </main>
       
-      <footer className="ml-20 md:ml-64 bg-primary text-white py-8 px-4 md:px-8">
+      <footer className="ml-20 md:ml-64 bg-blue-700 text-white py-8 px-4 md:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p className="text-neutral-dark">© 2024 Soroush Salari. All rights reserved.</p>
+              <p className="text-blue-200">© 2024 Soroush Salari. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
-              <a href="#profile" className="text-neutral-dark hover:text-accent transition-colors">Back to Top</a>
+              <a href="#profile" className="text-blue-200 hover:text-white transition-colors">Back to Top</a>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: 10 }}
           onClick={scrollToTop}
-          className="fixed right-6 bottom-6 p-4 bg-accent text-white rounded-full shadow-lg hover:bg-accent-light transition-colors z-50"
+          className="fixed right-6 bottom-6 p-4 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-500 transition-colors z-50"
         >
           <FaChevronUp />
         </motion.button>
