@@ -16,8 +16,8 @@ const SkillCategory = ({ title, icon, children }: SkillCategoryProps) => (
     viewport={{ once: true }}
     transition={{ duration: 0.5 }}
   >
-    <h3 className="text-xl font-semibold text-primary mb-4 flex items-center">
-      <span className="mr-3 text-accent">{icon}</span>
+    <h3 className="text-xl font-semibold text-blue-700 mb-4 flex items-center">
+      <span className="mr-3 text-blue-500">{icon}</span>
       {title}
     </h3>
     <div className="flex flex-wrap gap-3">
