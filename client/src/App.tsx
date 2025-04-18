@@ -22,7 +22,8 @@ function App() {
       <ThemeProvider
         attribute="class"
         defaultTheme="light"
-        enableSystem
+        enableSystem={false}
+        forcedTheme="light"
       >
         <TooltipProvider>
           <Toaster />
